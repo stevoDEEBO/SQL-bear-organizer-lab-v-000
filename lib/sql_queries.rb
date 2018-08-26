@@ -1,17 +1,17 @@
 def selects_all_female_bears_return_name_and_age
-  "SELECT name,age from bears where gender = 'F'"
+  "SELECT name,age from bears where gender = 'F';"
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
-  "SELECT name from bears ORDER BY name"
+  "SELECT name from bears ORDER BY name;"
 end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
-  "SELECT name,age FROM bears ORDER BY age WHERE alive = TRUE"
+  "SELECT name,age FROM bears ORDER BY age WHERE alive = TRUE;"
 end
 
 def selects_oldest_bear_and_returns_name_and_age
-  "SELECT name,age max(age) from bears"
+  "SELECT name,age max(age) from bears;"
 end
 
 def select_youngest_bear_and_returns_name_and_age
