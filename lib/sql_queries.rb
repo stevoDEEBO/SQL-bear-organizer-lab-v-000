@@ -3,7 +3,7 @@ def selects_all_female_bears_return_name_and_age
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
-  "select name from bears order by name"
+  "select name from bears ORDER BY name"
 end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
