@@ -5,4 +5,5 @@ CREATE TABLE bears (
       gpa FLOAT,
       color TEXT,
       temperament TEXT,
-      alive BOOLEAN);
+      alive BOOLEAN
+    );
